@@ -1,0 +1,37 @@
+body {
+  padding: 10px;
+  width: 300px;
+}
+
+.variation {
+  display: inline-block;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.up {
+  color: rgb(51, 160, 48);
+}
+
+.down {
+  color: rgb(233, 113, 113);
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 5px !important;
+  padding-bottom: 10px;
+}
+
+li {
+  min-height: 20px;
+  color: #0077cc;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+li:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
